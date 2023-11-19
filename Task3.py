@@ -9,7 +9,7 @@ def generatePassword(n):
 if __name__ == "__main__":
     n = int(input("Enter the length of the password: "))
     password = generatePassword(n)
-    print("A randomly selected password is:", password)
+    print("A randomly generated password is:", password)
 
 
 
